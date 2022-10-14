@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid0{
+            background-color: aqua;
+            border: 3px red solid;
+            height: 100vh ;
+            display: grid;
+            /* grid-template-columns: 300px 300px 350px 350px 200px; */
+            /* grid-template-columns: auto 300px auto ; */
+            /* grid-template-columns: 1fr 3fr 2fr 1fr; */
+            /* grid-template-columns: repeat(4,1fr 2fr 3fr); */
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 300px 50px; */
+            gap: 20px;
+        }
+        .grid0 div{
+            background-color: rgb(186, 140, 14);
+            border: 2px black solid;
+            
+
+        }
+        .grid1{
+            /* grid-column: 1/3; */
+            /* grid-row-start:1 ;
+            grid-row-end:3; */
+            /* grid-column: 1/span 3;
+            grid-row: 1/span 2; */
+            grid-column-start: 1;
+            grid-column-end:span 3;
+        }
+    </style>
+</head>
+<body>
+    <h1>GRID</h1>
+    <div class="grid0">
+    <div class="grid1">haii</div>
+    <!-- <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse mollitia vitae quos tempora, libero consequuntur, quidem possimus sequi incidunt ipsa adipisci aut voluptas atque animi officiis? Alias quis tempora ipsam at sint deleniti. Voluptatum consequatur sapiente quos illo error beatae voluptas eius quidem, similique eaque harum voluptate sequi sunt placeat repudiandae, tempore laborum, atque est ab. Eum dicta architecto obcaecati qui maiores minus iure suscipit omnis dolores? Aliquam iste debitis deleniti similique inventore, corporis a autem ex, qui possimus temporibus, molestias quas numquam quisquam laudantium fugit ipsum! Eveniet labore perspiciatis, dolores debitis beatae itaque corrupti distinctio? Iusto ex aperiam dolorem!</div> -->
+    <div class="grid2">oyyy</div>
+    <div class="grid3">helooo</div>
+    <div class="grid4">hyyyyy</div>
+    <div class="grid5">how r u</div>
+    </div>
+    
+</body>
+</html>

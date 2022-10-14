@@ -1,0 +1,51 @@
+.adh{
+    color: blueviolet;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+h2{
+    color:palevioletred;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border-color: black;
+    border-style: dashed;
+    width: 100px;
+    height: 100px;
+    
+}
+.div1 p{
+    color: brown;
+    height: 20px;
+    font-family: fantasy;
+    padding-left: 100px;
+    
+
+}
+input[type="text"]{
+    color: hotpink;
+    height: 30px;
+    font-family: cursive;
+
+}
+.geethu{
+    color: indigo;
+}
+a{
+    display: block;
+  
+}
+p{
+    display: inline;
+    
+}
+#h4{
+    border:2px black solid;
+    
+    
+}
+
+
+
+
