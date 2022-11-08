@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/test_css.css' %}">
+</head>
+<body>
+    <div  class="header">
+        <div class="head1">
+            
+            
+        </div>
+        <div class="head2">
+            <a href="{% url 'test_css' %}" class="details">Home</a>
+            <a href="{% url 'life' %}" class="details">Life and Career</a>
+            <a href="" class="details">Pictures</a>
+            
+            
+
+        </div>
+    </div>
+    <div class="grid_container">
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic3.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic4.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic6.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic3.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic2.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic4.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic6.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic2.jpg' %}"></div>
+        <div class="grid_items"><img class="grid_image" src="{% static 'images/pic3.jpg' %}"></div>
+    </div>
+    
+</body>
+</html>

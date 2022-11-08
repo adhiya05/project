@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators</title>
+</head>
+<body style="background-color:rgb(204, 204, 204);">
+    <h1   align="center">operators</h1>
+    <label for="">first number</label>
+    <input type="number" id="num1" placeholder="enter the first number"> <br><br>
+    <label for="">second number</label>
+    <input type="number" id="num2" placeholder="enter the second number"> <br><br>
+    <label for="">select operation</label>
+    <select name="" id="operators" onchange="arithmeticOperation()">
+        <option value="+">addition</option>
+        <option value="-">subtraction</option>
+        <option value="/">division</option>
+        <option value="*">multiplication</option>
+
+        </select> <br><br>
+        <button onclick="arithmeticOperation">Click</button>
+        <span id="rslt"> result</span> <br><br>
+
+        <script>
+            function arithmeticOperation(){
+                document.getElementById( 'operators').addEventListener('change')
+    
+                var num1 = Number(document.getElementById('num1').value)
+                var num2 = Number(document.getElementById('num2').value)
+                var op =  document.getElementById('operators').value
+    
+                var result = 0
+    
+                switch(op){ 
+                    case '+':result = num1 + num2
+                             break
+                    case '-':result = num1 - num2
+                             break
+
+                    case '/':result = num1 / num2
+                             break
+
+                    case '*':result = num1 * num2
+                             break
+                            
+
+                   
+
+                }
+    
+                document.getElementById('rslt').innerHTML ='result is ' + result
+                document.getElementById('rslt').style.background='aqua'
+            }
+            
+    
+        </script>
+    </body>
+    </html>

@@ -34,6 +34,54 @@ def bootstrap(request):
 
 def baabtra2(request):
     return render(request,'baabtra/baabtra2.html') 
+
+def js(request):
+    return render(request,'baabtra/js.html') 
+
+def doc(request):
+    return render(request,'baabtra/doc.html') 
+
+def doc2(request):
+    return render(request,'baabtra/doc2.html')
+
+def array(request):
+    return render(request,'baabtra/array.html')
+
+
+def task(request):
+    return render(request,'baabtra/task.html')
+
+def jquery(request):
+    return render(request,'baabtra/jquery.html')
+
+def queryadd(request):
+    return render(request,'baabtra/queryadd.html')
+
+def jquery2(request):
+    return render(request,'baabtra/jquery2.html') 
+
+def traverse(request):
+    return render(request,'baabtra/traverse.html')
+
+def signup(request):
+    return render(request,'baabtra/signup.html')
+
+def test_css(request):
+    return render(request,'baabtra/test_css.html')
+
+def life(request):
+    return render(request,'baabtra/life.html')
+
+def pictures(request):
+    return render(request,'baabtra/pictures.html')              
+
+                         
+                                                                       
+                                          
+             
+
+   
+                   
             
             
             
